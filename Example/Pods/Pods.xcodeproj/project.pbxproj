@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15B93F4E7BC3230DF7D87625A2DB8122 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F741B12ABAD4151BE8EE185AD40094D /* ReplaceMe.swift */; };
 		17FDE85E0BC5A78380B0E04E0BABE070 /* WWInvoices-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC4505D4F5A8B8537F985622931FDD6E /* WWInvoices-dummy.m */; };
 		1FE741E2EA1E1977ED92A03B3A0AE43D /* WWInvoices-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 20BE746410738CC69546D323DEBDE19B /* WWInvoices-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3440276434A48E9C7DAE85A8AEF91013 /* Pods-WWInvoices_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9576B6D2B49F3671DA7A9AF5A751B122 /* Pods-WWInvoices_Tests-dummy.m */; };
 		3BD5DC1B240AC998F4D4B1BCA3C9F129 /* Pods-WWInvoices_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 431001E3C988923C09644061733CEA98 /* Pods-WWInvoices_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CD67C948732777451E208DA8A406866 /* Pods-WWInvoices_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4BD94ABFCB6302E67A44865B23168 /* Pods-WWInvoices_Example-dummy.m */; };
 		A058CD29C6492371997A2FA336BB2C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B3C07EAE221E635600A121D3 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C07EAD221E635600A121D3 /* Logger.swift */; };
 		BDE917832AEE51BA64A58F4D7AF6A707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		BE1C9B4F9DAB4C7357C928BFB82DD4A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		DBBF404B2BFFEBBD2F5C3B2FF88BD8F9 /* Pods-WWInvoices_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89FFC75B35218E82515D6262AEA09C6 /* Pods-WWInvoices_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,13 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02706A8D2F5BAE730550279971E1D3F2 /* WWInvoices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WWInvoices.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		115D1EE9EE06C45B59FB1B1DE1DB7BC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		02706A8D2F5BAE730550279971E1D3F2 /* WWInvoices.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WWInvoices.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		115D1EE9EE06C45B59FB1B1DE1DB7BC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1929DF9597BA4FFA6B0C23EE008D4BD8 /* Pods-WWInvoices_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWInvoices_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		20BE746410738CC69546D323DEBDE19B /* WWInvoices-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWInvoices-umbrella.h"; sourceTree = "<group>"; };
 		22ADFD66ED289BE7B82A42AD890F6B86 /* Pods-WWInvoices_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWInvoices_Tests-Info.plist"; sourceTree = "<group>"; };
 		2CE4B155ED0343B115C79C556506FA6D /* Pods-WWInvoices_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWInvoices_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		2F741B12ABAD4151BE8EE185AD40094D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WWInvoices/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		3FB4BD94ABFCB6302E67A44865B23168 /* Pods-WWInvoices_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWInvoices_Example-dummy.m"; sourceTree = "<group>"; };
 		431001E3C988923C09644061733CEA98 /* Pods-WWInvoices_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWInvoices_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4DFB2664203471A152F4B2F619458AA4 /* Pods-WWInvoices_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WWInvoices_Example.modulemap"; sourceTree = "<group>"; };
@@ -54,21 +53,22 @@
 		657FD504E637E87C85089DF0A3BE99F5 /* Pods-WWInvoices_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWInvoices_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		73C421C492173B6B8CE1B0D9226C6057 /* Pods-WWInvoices_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWInvoices_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9576B6D2B49F3671DA7A9AF5A751B122 /* Pods-WWInvoices_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WWInvoices_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E64F9C826EE8AFDC7E99A43DAE04A59 /* Pods-WWInvoices_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WWInvoices_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A0CC6E873BD001BFF672F2C93FA48E00 /* Pods-WWInvoices_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WWInvoices_Example-Info.plist"; sourceTree = "<group>"; };
-		AAE74C6D26B28D4ABB37C40E978D921D /* Pods_WWInvoices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WWInvoices_Tests.framework; path = "Pods-WWInvoices_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAE74C6D26B28D4ABB37C40E978D921D /* Pods_WWInvoices_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWInvoices_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C07EAD221E635600A121D3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		B6B16385D95C02ABA0F59C05F3F7C3EF /* Pods-WWInvoices_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WWInvoices_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C3C9F0C7EE03A77F556AB02B4B94C846 /* Pods-WWInvoices_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWInvoices_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C89FFC75B35218E82515D6262AEA09C6 /* Pods-WWInvoices_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WWInvoices_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DCC79F40165702C7B5EBBAF03E70287F /* Pods_WWInvoices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WWInvoices_Example.framework; path = "Pods-WWInvoices_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCC79F40165702C7B5EBBAF03E70287F /* Pods_WWInvoices_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWInvoices_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E553101BFA3FBCDEB288A4B84499E530 /* WWInvoices-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WWInvoices-prefix.pch"; sourceTree = "<group>"; };
-		E6627258E3F67B77272BD67192B212DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6627258E3F67B77272BD67192B212DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		EC4505D4F5A8B8537F985622931FDD6E /* WWInvoices-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WWInvoices-dummy.m"; sourceTree = "<group>"; };
 		EF7D2E5343BD62DDBE51A0C0561FA472 /* Pods-WWInvoices_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WWInvoices_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F6B9F2441B63F56DFB7F63C2D67B62F7 /* WWInvoices.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WWInvoices.modulemap; sourceTree = "<group>"; };
-		F79F66DC54CE1C730B7E7630AA8EA397 /* WWInvoices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WWInvoices.framework; path = WWInvoices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79F66DC54CE1C730B7E7630AA8EA397 /* WWInvoices.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WWInvoices.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,9 +146,9 @@
 		A3F1EEF7188251C914BB75BA48B727D1 /* WWInvoices */ = {
 			isa = PBXGroup;
 			children = (
-				2F741B12ABAD4151BE8EE185AD40094D /* ReplaceMe.swift */,
 				1CA95B17603B12FE8681D963E177B55C /* Pod */,
 				DFB81DE43821A9CA4E20B49319444A60 /* Support Files */,
+				B3C07EAD221E635600A121D3 /* Logger.swift */,
 			);
 			name = WWInvoices;
 			path = ../..;
@@ -315,6 +315,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					F6F5257AE04B77EA08E3E0EBD0D98CC8 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -364,7 +369,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15B93F4E7BC3230DF7D87625A2DB8122 /* ReplaceMe.swift in Sources */,
 				17FDE85E0BC5A78380B0E04E0BABE070 /* WWInvoices-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CD67C948732777451E208DA8A406866 /* Pods-WWInvoices_Example-dummy.m in Sources */,
+				B3C07EAE221E635600A121D3 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +413,7 @@
 			baseConfigurationReference = 2CE4B155ED0343B115C79C556506FA6D /* Pods-WWInvoices_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -430,6 +436,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -635,6 +643,7 @@
 			baseConfigurationReference = C3C9F0C7EE03A77F556AB02B4B94C846 /* Pods-WWInvoices_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -657,6 +666,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -717,8 +727,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
