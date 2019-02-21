@@ -146,12 +146,29 @@
 		A3F1EEF7188251C914BB75BA48B727D1 /* WWInvoices */ = {
 			isa = PBXGroup;
 			children = (
+				B3C07ED0221E67CD00A121D3 /* WWInvoices */,
 				1CA95B17603B12FE8681D963E177B55C /* Pod */,
 				DFB81DE43821A9CA4E20B49319444A60 /* Support Files */,
-				B3C07EAD221E635600A121D3 /* Logger.swift */,
 			);
 			name = WWInvoices;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3C07ECF221E671D00A121D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B3C07EAD221E635600A121D3 /* Logger.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3C07ED0221E67CD00A121D3 /* WWInvoices */ = {
+			isa = PBXGroup;
+			children = (
+				B3C07ECF221E671D00A121D3 /* Classes */,
+			);
+			name = WWInvoices;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		B7C0E5F8C662F693567D8D3874B3F5B3 /* Pods-WWInvoices_Tests */ = {
