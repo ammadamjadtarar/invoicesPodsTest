@@ -1,0 +1,6 @@
+framework module WWInvoices {
+  umbrella header "WWInvoices-umbrella.h"
+
+  export *
+  module * { export * }
+}

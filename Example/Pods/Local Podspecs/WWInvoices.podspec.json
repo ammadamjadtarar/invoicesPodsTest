@@ -1,0 +1,22 @@
+{
+  "name": "WWInvoices",
+  "version": "0.1.0",
+  "summary": "A short description of WWInvoices.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ammad Amjad Tarar/WWInvoices",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ammad Amjad Tarar": "ammad.amjad@wework.com"
+  },
+  "source": {
+    "git": "https://github.com/Ammad Amjad Tarar/WWInvoices.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WWInvoices/Classes/**/*"
+}

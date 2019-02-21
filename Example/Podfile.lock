@@ -1,0 +1,16 @@
+PODS:
+  - WWInvoices (0.1.0)
+
+DEPENDENCIES:
+  - WWInvoices (from `../`)
+
+EXTERNAL SOURCES:
+  WWInvoices:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WWInvoices: 7956e62b7213c832e36d4fc02e4fb2efd986ca90
+
+PODFILE CHECKSUM: 1d8bae18d55f671ff1a1429eb3a523eb9afbe564
+
+COCOAPODS: 1.6.0
